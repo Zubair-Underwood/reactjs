@@ -1,5 +1,9 @@
 import { LearnConditionalRender } from "./components/LearnConditionalRender";
 import { LearnCustomHook } from "./components/LearnCustomHook";
+import { LearnExternalCss } from "./components/LearnExternalCss";
+import { LearnExternalCss2 } from "./components/LearnExternalCss2";
+import { LearnInlineCss } from "./components/LearnInlineCss";
+import { LearnMap } from "./components/LearnMap";
 
 
 
@@ -13,8 +17,12 @@ function App() {
 
   return (
     <>
-     {/* <LearnCustomHook/> */}
-     <LearnConditionalRender/>
+      {/* <LearnCustomHook/> */}
+      {/* <LearnConditionalRender/> */}
+      {/* <LearnMap/> */}
+      {/* <LearnInlineCss /> */}
+      <LearnExternalCss />
+      <LearnExternalCss2 />
     </>
   )
 }
