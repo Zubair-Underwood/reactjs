@@ -1,9 +1,12 @@
+
+import { LearnCSSModule1 } from "./components/LearnCSSModule1";
 import { LearnConditionalRender } from "./components/LearnConditionalRender";
 import { LearnCustomHook } from "./components/LearnCustomHook";
 import { LearnExternalCss } from "./components/LearnExternalCss";
 import { LearnExternalCss2 } from "./components/LearnExternalCss2";
 import { LearnInlineCss } from "./components/LearnInlineCss";
 import { LearnMap } from "./components/LearnMap";
+import { LearnUseOfImage } from "./components/LearnUseOfImage";
 
 
 
@@ -21,8 +24,11 @@ function App() {
       {/* <LearnConditionalRender/> */}
       {/* <LearnMap/> */}
       {/* <LearnInlineCss /> */}
-      <LearnExternalCss />
-      <LearnExternalCss2 />
+      {/* <LearnExternalCss /> */}
+      {/* <LearnExternalCss2 /> */}
+      {/* <LearnCSSModule1/> */}
+      {/* <LearnCSSModule2/> */}
+      {/* <LearnUseOfImage /> */}
     </>
   )
 }
