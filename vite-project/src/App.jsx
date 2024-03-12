@@ -8,6 +8,7 @@ import { LearnForm } from "./components/LearnForm";
 import { LearnInlineCss } from "./components/LearnInlineCss";
 import { LearnMap } from "./components/LearnMap";
 import { LearnUseOfImage } from "./components/LearnUseOfImage";
+import { LearnUsingENV } from "./components/LearnUsingENV";
 
 
 
@@ -30,7 +31,8 @@ function App() {
       {/* <LearnCSSModule1/> */}
       {/* <LearnCSSModule2/> */}
       {/* <LearnUseOfImage /> */}
-      <LearnForm />
+      {/* <LearnForm /> */}
+      <LearnUsingENV />
     </>
   )
 }
